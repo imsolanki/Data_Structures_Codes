@@ -73,10 +73,12 @@ class Solution
     // for empty list
     void display(Node head)
     {
+        //add code here.
         Node curr = head;
         while(curr!=null){
             System.out.print(curr.data+" ");
-            curr=curr.next;
+            curr =curr.next;
+            
         }
     }
 }
