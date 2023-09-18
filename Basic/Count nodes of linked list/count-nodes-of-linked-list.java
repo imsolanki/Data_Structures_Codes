@@ -27,13 +27,13 @@ class Solution
     {
         
         //Code here
-        Node curr =head;
+        Node curr = head;
         int count =0;
         while(curr!=null){
-            count +=1;
+            count+=1;
             curr=curr.next;
         }
-    return count;
+        return count;
     }
 }
     
